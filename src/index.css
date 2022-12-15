@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+  background-color: #131722;
+  color: white !important;
+  font-family: 'Oswald', sans-serif;
+  cursor: pointer;
+}
+
+input {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+::placeholder {
+  color: white !important;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
+}
+
+

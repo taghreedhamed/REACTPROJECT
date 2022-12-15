@@ -1,0 +1,27 @@
+
+
+
+
+.title {
+    position: relative;
+    color: #6c757D;
+}
+.title::after {
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 3px;
+    background-color: white;
+    bottom: 110%;
+    left: 0;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 3px;
+    background-color: white;
+    top: 110%;
+    left: 0;
+}

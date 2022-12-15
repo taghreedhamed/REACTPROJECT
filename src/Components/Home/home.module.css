@@ -1,0 +1,48 @@
+
+
+.title {
+    position: relative;
+    color: red;
+}
+.title::after {
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 3px;
+    background-color:white;
+    bottom: 110%;
+    left: 0;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 3px;
+    background-color: white;
+    top: 110%;
+    left: 0;
+}
+
+.tv {
+    background-color: red;
+    text-align: center;
+    position: relative;
+}
+.overly {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(179, 90, 90, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition:  opacity 0.5s;
+}
+
+.overly:hover {
+    opacity: 1;
+}
