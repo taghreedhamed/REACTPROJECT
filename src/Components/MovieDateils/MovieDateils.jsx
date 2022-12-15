@@ -32,7 +32,7 @@ useEffect(()=> {
         <div className="col-md-8">
             <div className="movieDateils">
             <h4 className='mb-5'>{objeDetails.title}</h4>
-            {objeDetails.genres?.map((elem , index)=> <span key={index} className='bg-danger p-3 rounded-circle m-3'>
+            {objeDetails.genres?.map((elem , index)=> <span key={index} className='bg-danger p-3 rounded-circle m-2'>
             {elem.name}
             </span>)}
                 <h6 className='mt-5 mt-5'><span className='text-danger'>Vote:</span> {objeDetails.vote_average}</h6>
