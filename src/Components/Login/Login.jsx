@@ -102,7 +102,7 @@ return <>
 
     <label htmlFor="password">password</label>
     <input onChange={getUser} id='password' className='form-control my-3' type="password" placeholder='enter you password' />
-    {getSpecificError('password')? <div className='alert alert-danger'>{getSpecificError('password')}</div>:''}
+    {getSpecificError('password')? <div className='alert alert-danger'>Password Must be from 3 to 8 characters</div>:''}
 
 
     <button className='btn btn-outline-info mt-3'>
